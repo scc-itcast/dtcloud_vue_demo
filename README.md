@@ -17,4 +17,4 @@ DTCloud 内置 **jquery** 与 **Bootstrap** 的 **css** 样式，开发中使用
 ## 5. DTCloud的qweb在start 方法中的$(document).ready回调函数里不能第一时间获取到我们模块页面上的dom元素，需要加个延迟
 # 4. 持续更新中
 [github 链接地址](https://github.com/scc-itcast/dtcloud_vue_demo)
-
+[gitee 链接地址](https://gitee.com/sccitcast/dtcloud_vue_demo)
