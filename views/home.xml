@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dtcloud>
+    <data>
+        <record id="action_vueDemo" model="ir.actions.client">
+            <field name="name">vueDemo</field>
+            <!--      tag  action在客户端的标识符，一般是一个专用的字符串，在js文件中注册该动作时指定。      -->
+            <field name="tag">my_vueDemo</field>
+            <!--      target (可选)  current:当前内容区打开action；fullscreen:以全屏模式打开；new：以新窗口打开。      -->
+            <field name="target">current</field>
+            <!--      params (可选)  用来传给客户端动作的，字典格式      -->
+            <field name="params">{'params': 'params'}</field>
+            <!--      context 作为额外数据，传递给客户端函数。      -->
+            <field name="context">{'context': 'context'}</field>
+        </record>
+        <menuitem
+                id="menu_vueDemo"
+                name="vueDemo"
+                action="action_vueDemo"
+                groups="base.group_user"
+                sequence="10"/>
+    </data>
+</dtcloud>

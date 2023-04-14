@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<templates id='template' xml:space='preserve'>
+    <t t-name="my_vueDemo">
+        <div class="container-fluid vueDemo">
+            <div class="" id="vueDemo">
+                <div class="row">
+                    <my-header></my-header>
+                </div>
+                <div class="row">
+                    <select v-for="item in 2" class="ui compact selection dropdown col-md-6">
+                        <option value="all">All</option>
+                        <option selected="" value="articles">文章</option>
+                        <option value="products">Products</option>
+                     </select>
+                </div>
+                <div class="row">
+                    <button class="ui button col-xs-6 col-sm-3" v-on="{click:clickSubmit}">显示隐藏 </button>
+                    <input class="col-xs-6 col-sm-3" v-model="radio"> </input>
+                    <span class="col-xs-6 col-sm-3" v-if="showTabResult">  {{radio}}  </span>
+                </div>
+                <div class="row">
+                   <table class="ui celled red table">
+                      <thead>
+                        <tr>
+                          <th v-for="item in tableData_header">{{item}}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="tableRow in tableData">
+                          <td v-for="item in tableRow">{{item}}</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                            <th>{{tableData.length}}个 人</th>
+                            <th>2个 已审批</th>
+                            <th></th>
+                        </tr>
+                      </tfoot>
+                    </table>
+                </div>
+                <div class="row">
+                    <my-footer v-bind="{data: footerMap}"></my-footer>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>
