@@ -12,7 +12,7 @@ Vue.component('my-footer', {
     render: function (createElement, context) {
         const {data} = context.props
         let template = `
-            <div class="footer-container">
+            <div class="footer-container bg-dark text-white d-flex justify-content-center align-items-center">
                ${data.describe}
             </div>  
                     `

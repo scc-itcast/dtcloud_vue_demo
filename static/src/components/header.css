@@ -1,10 +1,6 @@
-.header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #005e80;
-    color: #ffffff;
-    cursor: pointer;
-    height: 100px;
-    user-select: none;
+.my_vueDemo .header-container {
+  cursor: pointer;
+  height: 100px;
+  user-select: none;
 }
+/*# sourceMappingURL=header.css.map */

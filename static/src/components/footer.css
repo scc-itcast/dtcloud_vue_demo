@@ -1,9 +1,6 @@
-.footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #005e80;
-    color: #ffffff;
-    cursor: pointer;
-    height: 100px;
+.my_vueDemo .footer-container {
+  cursor: pointer;
+  height: 100px;
+  user-select: none;
 }
+/*# sourceMappingURL=footer.css.map */

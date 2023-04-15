@@ -9,7 +9,6 @@ dtcloud.define('my_vueDemo', function (require) {
         init: function (parent, action) {
             return this._super.apply(this, arguments);
         },
-        editor: null,
         start() {
             $(document).ready(() => {
                 let self = this
@@ -35,8 +34,8 @@ dtcloud.define('my_vueDemo', function (require) {
         _datas() {
             return {
                 showTabResult: true,//是否展示
-                tableData_header: window.myVueDemoMap.tableData_header || [],//表格头
-                tableData: window.myVueDemoMap.tableData || [],//表格数据
+                tableData_header: window.myVueDemoMap.tableData_header.slice() || [],//表格头
+                tableData: window.myVueDemoMap.tableData.slice() || [],//表格数据
                 radio: 3,
                 footerMap: {
                     describe: 'footer describe'

@@ -13,5 +13,5 @@ Vue.component('my-header', {
             this.count++
         }
     },
-    template: '<div class="header-container" v-on:click="clickCountAdd">You clicked me {{ count }} times.</div>'
+    template: '<div class="header-container bg-primary text-white d-flex justify-content-center align-items-center" v-on:click="clickCountAdd">You clicked me {{ count }} times.</div>'
 })
