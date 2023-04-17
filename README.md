@@ -5,9 +5,10 @@ DTCloud 内置 **jquery** 与 **Bootstrap** 的 **css** 样式，开发中使用
 [Bootstrap 样式链接参考](https://v3.bootcss.com/css/)
 [Bootstrap 新版样式链接参考](https://getbootstrap.com/docs/5.1/utilities/background/)
 # 项目的目录结构
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/26139765/1681525300326-52ddd9fb-285b-44af-9a1c-ce7b167b4cc9.png#averageHue=%233d4144&clientId=u5bfb51d5-1e9e-4&from=paste&height=705&id=ub468add8&name=image.png&originHeight=705&originWidth=280&originalType=binary&ratio=1&rotation=0&showTitle=false&size=21352&status=done&style=none&taskId=ubc597a33-6e94-45f5-84aa-5e0d31de5c9&title=&width=280)
+![image.png](https://cdn.nlark.com/yuque/0/2023/png/26139765/1681695766781-d57afb56-fc13-4784-ab15-5109ac6cf90f.png#averageHue=%233d4144&clientId=u20279a48-025c-4&from=paste&height=701&id=uad98bd27&name=image.png&originHeight=701&originWidth=260&originalType=binary&ratio=1&rotation=0&showTitle=false&size=21100&status=done&style=none&taskId=uf4aa37ce-0b5f-4616-b7ec-b0a3582a0ec&title=&width=260)
 项目中有用到less文件，如何使用less：
 [参考链接](https://blog.csdn.net/sinat_40101215/article/details/130166278)
+不想使用less的，可以使用scss，dtcloud自带解析scss功能
 文末有仓库地址
 # 2. 步骤
 ## 1. 创建自己模块 dtb_vue_demo

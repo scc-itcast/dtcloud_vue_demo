@@ -31,7 +31,7 @@
             'dtb_vue_demo/static/src/css/my_vueDemo.css',
             # ## 组件
             'dtb_vue_demo/static/src/components/header.js',
-            'dtb_vue_demo/static/src/components/header.css',
+            'dtb_vue_demo/static/src/components/header.scss',
             'dtb_vue_demo/static/src/components/footer.js',
             'dtb_vue_demo/static/src/components/footer.css',
         ],
